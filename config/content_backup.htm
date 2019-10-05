@@ -15,7 +15,6 @@
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
 <h1>Weeks</h1>
 <p>Week2</p>
-<p>建立一個新的github倉儲，並下載子模組建立新的網頁。</p>
-<p></p>
+<p>先下載<a href="https://drive.google.com/a/gm.nfu.edu.tw/uc?id=1fxMdqdCoCL__O1IpZ-Sv-A_4-c77Wx4E&amp;export=download">2019Fall可攜式套件.7z</a>，並解壓縮，道<a href="https://github.com/">github</a>網站建立新的repository，建立時要勾選Initialize this repository with a README，建立完成後將倉儲git clone下來。<br/>輸入git cofig --global user.name""、git cofig --global user.email""、git cofig --global http.proxy [2001:288:6004:17::7]:3128。<br/>輸入git submodule add <a href="https://github.com/mdecourse/cmsimde.git">https://github.com/mdecourse/cmsimde.git</a> cmsimde，進入cmsimde\up_dir資料夾裡面，將所有檔案抓出來cad2019資料夾裡。<br/>開啟網站並修改標題後上傳到github倉儲裡。</p>
 <p>Week3</p>
-<p>進行Solvespace的編譯。</p>
+<p>用git version檢查git的版本<br/>將Y:\portablegit\bin\sh.exe改名成<span>sh_rename_for_solvespace.exe</span><br/>用<span>git clone </span><span>--recurse-submodules取得子模組<br/></span>git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace<br/>edit Y:\tmp\solvespace\extlib\angle\CMakeLists.txt comment out line 713 and 714<br/>#list(APPEND ANGLE_DEFINITIONS<br/>#"-DANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES={ \"d3dcompiler_47.dll\", \"d3dcompiler_46.dll\", \"d3dcompiler_43.dll\" }")<br/>endif()<br/><span></span><span>手動進行libpng.dll.a的編譯，改名為 libpng_static.a放到編譯系統的lib目錄中。<br/></span>cd solvespace<span>、</span>cd extlib<span>、</span>cd libpng<span>、</span>mkdir build<span>、</span>cd build<br/>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release mingw32-make<br/>rename libpng.dll.a to libpng_static.a and copy to Y:\msys64\mingw64\lib<br/>在<span>solvespace建造並進入build目錄，執行cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release、mingw32-make</span></p>
