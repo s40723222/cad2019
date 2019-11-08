@@ -103,17 +103,17 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180902120523.12"># Week2
+<t tx="leo.20180902120523.12">## Week2
 
-*下載 [2019 Fall.7z](https://drive.google.com/a/gm.nfu.edu.tw/uc?id=1fxMdqdCoCL__O1IpZ-Sv-A_4-c77Wx4E&amp;export=download)
+下載 [2019 Fall.7z](https://drive.google.com/a/gm.nfu.edu.tw/uc?id=1fxMdqdCoCL__O1IpZ-Sv-A_4-c77Wx4E&amp;export=download)
 
-*建立新的repository，建立時要勾選Initialize this repository with a README
+建立新的repository，建立時要勾選Initialize this repository with a README
 
-*git clone下來
+git clone下來
 
-*git submodule add https://github.com/mdecourse/cmsimde.git cmsimde
+git submodule add https://github.com/mdecourse/cmsimde.git cmsimde
 
-*進入cmsimde\up_dir資料夾裡面，將所有檔案抓出來cad2019資料夾裡，開啟網站</t>
+進入cmsimde\up_dir資料夾裡面，將所有檔案抓出來cad2019資料夾裡，開啟網站</t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -370,11 +370,11 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191108150654.2"># Week3
+<t tx="leo.20191108150654.2">## Week3
 
-*git version檢查git的版本
+git version檢查git的版本
 
-*進行solvespace的編譯</t>
+進行solvespace的編譯</t>
 <t tx="leo.20191108150713.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -384,9 +384,9 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191108150713.2"># Week4
+<t tx="leo.20191108150713.2">## Week4
 
-*觀看 [solvespace tutorials](http://solvespace.com/tutorial.pl)</t>
+觀看 [solvespace tutorials](http://solvespace.com/tutorial.pl)</t>
 <t tx="leo.20191108150716.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -396,9 +396,9 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191108150716.2"># Week5
+<t tx="leo.20191108150716.2">## Week5
 
-*用 solvespace 繪製
+用 solvespace 繪製
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/99bP8P7BlU4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108150718.1">&lt;section&gt;
@@ -417,7 +417,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191108152011.2">## Week6
 
-#將零組件轉入 v-rep3 進行運動組立後，以 Lua 或 Python 進行控制。
+將零組件轉入 v-rep3 進行運動組立後，以 Lua 或 Python 進行控制。
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/x1PqQP9dZNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108152015.1">&lt;section data-markdown&gt;
@@ -431,7 +431,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191108152015.2">## Week6
 
-#用繪圖軟體 Solvespace 編譯，零組件繪圖
+用繪圖軟體 Solvespace 編譯，零組件繪圖
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ZXBE29jlf4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108152345.1">&lt;section&gt;
@@ -450,7 +450,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191108152345.3">## Week7
 
-#slovespace-1
+slovespace-1
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Pv3Av42GshU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108152345.4">&lt;section data-markdown&gt;
@@ -464,7 +464,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191108152345.5">## Week7
 
-#slovespace-2
+slovespace-2
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/D0jvPkrs5ls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108152352.1">&lt;section data-markdown&gt;
@@ -478,7 +478,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191108152352.2">## Week7
 
-#slovespace-3
+slovespace-3
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/nU7aJ6QIb5c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108152354.1">&lt;section data-markdown&gt;
@@ -492,7 +492,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191108152354.2">## Week7
 
-#slovespace-4
+slovespace-4
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/K3wIAXhY_fM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108152355.1">&lt;section data-markdown&gt;
@@ -506,7 +506,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191108152355.2">## Week7
 
-#slovespace-5
+slovespace-5
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ChBBglNoziw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20191108152357.1">&lt;section data-markdown&gt;
@@ -520,7 +520,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191108152357.2">## Week7
 
-#slovespace-6
+slovespace-6
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Iv6p5sQ3Oeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
