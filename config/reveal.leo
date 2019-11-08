@@ -61,6 +61,9 @@
 <v t="leo.20191108152357.2"><vh>7-6</vh></v>
 </v>
 </v>
+<v t="leo.20191108203318.1"><vh>Week8</vh>
+<v t="leo.20191108203318.2"><vh>8</vh></v>
+</v>
 <v t="leo.20180902120523.13"><vh>參考</vh>
 <v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
@@ -523,5 +526,21 @@ slovespace-5
 slovespace-6
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Iv6p5sQ3Oeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191108203318.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191108203318.2">## Week8
+
+開啟 blog
+
+ssh 對 github 的連線
+
+導入 webots</t>
 </tnodes>
 </leo_file>
