@@ -2,4 +2,4 @@
 
 reveal 網址：https://s40723222.github.io/cad2019/reveal/index.html#/
 
-blg 網址：https://s40723222.github.io/cad2019/blog/index.html
+blog 網址：https://s40723222.github.io/cad2019/blog/index.html
