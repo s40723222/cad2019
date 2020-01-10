@@ -82,7 +82,9 @@
 </v>
 </v>
 <v t="leo.20200110095026.1"><vh>Week16</vh>
-<v t="leo.20200110095026.2"><vh>16</vh></v>
+<v t="leo.20200110142909.1"><vh>導入影片</vh>
+<v t="leo.20200110142909.2"><vh>16</vh></v>
+</v>
 </v>
 <v t="leo.20200110095030.1"><vh>Week17</vh>
 <v t="leo.20200110095030.2"><vh>17</vh></v>
@@ -551,12 +553,6 @@ ssh 對 github 的連線
 
 						
 </t>
-<t tx="leo.20200110095026.2">## Week16
-
-利用 Solvespace 繪製車子
-
-
-</t>
 <t tx="leo.20200110095030.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -582,6 +578,22 @@ ssh 對 github 的連線
 </t>
 <t tx="leo.20200110095116.2">## Week15
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/d1K260IqsMI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+之前的進度影片
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/watch?v=-BodivziU5w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200110142909.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110142909.2">## Week16
+
+用 solvespace 繪製車子並轉入 v-rep 和 webots
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/watch?v=-BodivziU5w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
