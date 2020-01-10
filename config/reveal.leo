@@ -61,19 +61,31 @@
 <v t="leo.20191108152357.2"><vh>7-6</vh></v>
 </v>
 </v>
-<v t="leo.20191108203318.1"><vh>Week8</vh>
-<v t="leo.20191108203318.2"><vh>8</vh></v>
+<v t="leo.20200110094225.1"><vh>Week8</vh>
+<v t="leo.20200110094225.2"><vh>8</vh></v>
 </v>
-<v t="leo.20180902120523.13"><vh>參考</vh>
-<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20191108203318.1"><vh>Week10</vh>
+<v t="leo.20191108203318.2"><vh>10</vh></v>
 </v>
-<v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
-<v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
+<v t="leo.20200110094332.1"><vh>Week12</vh>
+<v t="leo.20200110094332.2"><vh>12</vh></v>
 </v>
-<v t="leo.20180902120523.18"><vh>導入影片</vh>
-<v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
+<v t="leo.20200110094552.1"><vh>Week13</vh>
+<v t="leo.20200110094552.2"><vh>13</vh></v>
 </v>
+<v t="leo.20200110094744.1"><vh>Week14</vh>
+<v t="leo.20200110094744.2"><vh>14</vh></v>
+</v>
+<v t="leo.20200110095024.1"><vh>Week15</vh>
+<v t="leo.20200110095116.1"><vh>導入影片</vh>
+<v t="leo.20200110095116.2"><vh>15</vh></v>
+</v>
+</v>
+<v t="leo.20200110095026.1"><vh>Week16</vh>
+<v t="leo.20200110095026.2"><vh>16</vh></v>
+</v>
+<v t="leo.20200110095030.1"><vh>Week17</vh>
+<v t="leo.20200110095030.2"><vh>17</vh></v>
 </v>
 </v>
 </v>
@@ -117,83 +129,6 @@ git clone下來
 git submodule add https://github.com/mdecourse/cmsimde.git cmsimde
 
 進入cmsimde\up_dir資料夾裡面，將所有檔案抓出來cad2019資料夾裡，開啟網站</t>
-<t tx="leo.20180902120523.13">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20180902120523.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180902120523.15"># 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
-<t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180902120523.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="leo.20180902120523.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180902120523.19">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
 @tabwidth -4
@@ -535,12 +470,118 @@ slovespace-6
 
 						
 </t>
-<t tx="leo.20191108203318.2">## Week8
+<t tx="leo.20191108203318.2">## Week10
+
+進行分組
+
+建立分組倉儲</t>
+<t tx="leo.20200110094225.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110094225.2">## Week8
 
 開啟 blog
 
 ssh 對 github 的連線
 
 導入 webots</t>
+<t tx="leo.20200110094332.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110094332.2">## Week12
+
+分批進行翻譯
+
+翻譯內容(https://s40723222.github.io/cad2019/content/Weeks%2010~14.html)</t>
+<t tx="leo.20200110094552.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110094552.2">## Week13
+
+進行 Webots Tutorial-1 的練習
+
+</t>
+<t tx="leo.20200110094744.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110094744.2">## Week13
+
+進行 Webots Tutorial-2 的練習
+
+</t>
+<t tx="leo.20200110095024.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110095026.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110095026.2">## Week16
+
+利用 Solvespace 繪製車子
+
+
+</t>
+<t tx="leo.20200110095030.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110095030.2">## Week17
+
+小組進行翻譯
+
+翻譯內容(https://s40723222.github.io/cad2019/content/Weeks%2015~18.html)</t>
+<t tx="leo.20200110095116.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200110095116.2">## Week15
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/d1K260IqsMI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
